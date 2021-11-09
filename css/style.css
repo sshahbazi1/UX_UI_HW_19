@@ -13,7 +13,7 @@ html {
 .FlexNav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
     margin: 0;
 }
@@ -22,11 +22,11 @@ html {
     display: flex;
     list-style-type: none;
     vertical-align: middle;
+    padding: 5px;
 }
 
 li {
     padding-right: 20px;
-
 }
 
 .logo {
@@ -40,8 +40,6 @@ li {
 .socialheader {
     display: flex;
     padding: 15px;
-    margin-right: 35px;
-    justify-content: space-evenly;
 }
 
 .LinkedInwhite {
@@ -57,17 +55,13 @@ a:hover {
     font-weight: 700;
 }
 
-#dropdown a {
+.dropdown a {
     display: none;
 }
 
 .smallscreenheader {
     display: none;
 }
-
-.hamburgermenu {
-    display: none;
-}    
 
 .heroImage {
     display: flex;
