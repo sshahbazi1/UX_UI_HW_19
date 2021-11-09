@@ -243,6 +243,22 @@ h1 {
     font-size: 24px;
 }
 
+.proj1:hover {
+    opacity: 75%;
+}
+
+.proj2:hover {
+    opacity: 75%;
+}
+
+.proj3:hover {
+    opacity: 75%;
+}
+
+.proj4:hover {
+    opacity: 75%;
+}
+
 .Roam {
     width: 100%;
 }
